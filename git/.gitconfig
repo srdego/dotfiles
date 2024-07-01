@@ -1,0 +1,18 @@
+[user]
+  name = srlasagne
+  email = 174380610+srlasagne@users.noreply.github.com
+[init]
+  defaultBranch = main
+[color]
+  ui = auto
+[core]
+  editor = code --wait
+  autocrlf = input
+[diff]
+  tool = vscode
+[difftool "vscode"]
+  cmd = code --wait --diff $LOCAL $REMOTE
+[merge]
+  tool = vscode
+[mergetool "vscode"]
+  cmd = code --wait $REMOTE $LOCAl $BASE $MERGED
