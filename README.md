@@ -1,5 +1,13 @@
 # Dotfiles
 
-Welcome to my dotfiles! This repository is designed to work seamlessly with GNU Stow, allowing you to easily manage your dotfiles across multiple machines.
+Welcome to my dotfiles! This repository is designed to work seamlessly with
+[GNU Stow](https://www.gnu.org/software/stow/), allowing you to easily manage your dotfiles across multiple machines.
 
-The repository is organized into various directories, each corresponding to a particular configuration file or set of files. You can simply clone the repository and then use Stow to symlink the appropriate directories to your home directory.
+## Setup
+
+For a single configuration directory run `stow -v -R -t ~ dir`.
+
+- `v` Verbose.
+- `R` Purge old links first.
+- `t ~` Target home directory.
+- `dir` Directory for symlinking.
