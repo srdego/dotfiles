@@ -24,8 +24,13 @@ if [ -d ~/.bashrc.d ]; then
 fi
 unset rc
 
-# Kubectl aliases
-alias k='kubectl'
+# Aliases
+# -------
+
+# Kubectl
 alias kns='kubectl config set-context --current --namespace'
+
+# Starship
+# --------
 
 eval "$(starship init bash)"
