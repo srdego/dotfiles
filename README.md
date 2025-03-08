@@ -4,6 +4,13 @@ Welcome to my dotfiles! This repository is designed to work seamlessly with
 [GNU Stow](https://www.gnu.org/software/stow/), allowing you to easily manage
 your dotfiles across multiple machines.
 
+**📌 Table of Contents**
+
+- [✨ Features](#-features)
+- [📖 Usage](#-usage)
+  - [🔗 Stowing](#-stowing)
+  - [✂️ Unstowing](#-unstowing)
+
 ## ✨ Features
 
 - **Modular setup**: Allows you to manage separate configurations for different
