@@ -34,3 +34,4 @@ alias kns='kubectl config set-context --current --namespace'
 # --------
 
 eval "$(starship init bash)"
+. "$HOME/.cargo/env"
