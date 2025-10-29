@@ -1,7 +1,7 @@
 [user]
   name = srdego
   email = art-breach-capitol@duck.com
-	signingkey = ~/.ssh/git.pub
+  signingkey = ~/.ssh/git.pub
 [init]
   defaultBranch = main
 [color]
@@ -18,6 +18,6 @@
 [mergetool "vscode"]
   cmd = code --wait $REMOTE $LOCAl $BASE $MERGED
 [gpg]
-	format = ssh
+  format = ssh
 [commit]
-	gpgsign = true
+  gpgsign = true
