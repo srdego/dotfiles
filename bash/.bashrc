@@ -33,4 +33,3 @@ export XDG_CACHE_HOME="$HOME/.cache"
 # Starship
 export STARSHIP_CONFIG="$XDG_CONFIG_HOME/starship/starship.toml"
 eval "$(starship init bash)"
-. "$HOME/.cargo/env"
